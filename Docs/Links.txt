@@ -1,0 +1,8 @@
+IA enemigos
+https://www.youtube.com/watch?v=UjkSFoLxesw
+
+Nav Mesh component
+https://github.com/Unity-Technologies/NavMeshComponents
+
+Imagen dolor
+https://www.youtube.com/watch?v=LugpgsMdLWw
