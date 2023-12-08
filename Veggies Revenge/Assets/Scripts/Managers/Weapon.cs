@@ -1,58 +1,54 @@
-/* Weapon.cs */
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
+
 public class Weapon : MonoBehaviour
 {
-    [SerializeField]
-    private float damage;
+	[SerializeField]
+	public float damage;
 
-    [SerializeField]
-    private float fireRate;
+	[SerializeField]
+	private float fireRate;
 
-    [SerializeField]
-    private float fireDistance = 10;
+	[SerializeField]
+	public float autoDestroyTime;
 
-    [SerializeField]
-    private Transform bulletPoint;
+	[SerializeField]
+	private Transform bulletPoint;
 
-    private RaycastHit hit;
+	public bool cooldown;
 
-    public bool cooldown;
+	public Rigidbody bullet;
 
-    public void Fire(string enemyTag)
-    {
-        if (cooldown) return;
+	public float bulletSpeed = 10f;
 
-        Ray ray = new Ray();
-        ray.origin = bulletPoint.position;
-        ray.direction = bulletPoint.TransformDirection(Vector3.forward);
+	public void Fire()
+	{
+		if (cooldown)
+		{
+			return;
+		}
+		if ((bool)bullet && bullet.GetComponent<Rigidbody>() != null)
+		{
+			Rigidbody rigidbody = Object.Instantiate(bullet, bulletPoint.position, base.transform.rotation);
+			autoDestroy component = rigidbody.gameObject.GetComponent<autoDestroy>();
+			if ((bool)component)
+			{
+				component.autoDestroyTime = autoDestroyTime;
+			}
+			rigidbody.velocity = base.transform.forward * bulletSpeed;
+		}
+		cooldown = true;
+		StartCoroutine(StopCooldownAfterTime());
+	}
 
-        Debug.DrawRay(ray.origin, ray.direction * fireDistance, Color.green);
+	private IEnumerator StopCooldownAfterTime()
+	{
+		yield return new WaitForSeconds(fireRate);
+		cooldown = false;
+	}
 
-        if (Physics.Raycast(ray, out hit, fireDistance))
-        {
-            if (hit.collider.CompareTag(enemyTag))
-            {
-                var healthCtrl = hit.collider.GetComponent<HealthController>();
-                if (healthCtrl)
-                {
-                    healthCtrl.ApplyDamage(damage);
-                }
-            }
-        }
-        cooldown = true;
-        StartCoroutine(StopCooldownAfterTime());
-    }
-
-    private IEnumerator StopCooldownAfterTime()
-    {
-        yield return new WaitForSeconds(fireRate);
-        cooldown = false;
-    }
-
-    public bool UseTap()
-    {
-        return fireRate == 0;
-    }
+	public bool UseTap()
+	{
+		return fireRate == 0f;
+	}
 }

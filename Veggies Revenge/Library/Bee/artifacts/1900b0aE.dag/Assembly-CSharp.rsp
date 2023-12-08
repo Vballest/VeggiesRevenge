@@ -362,11 +362,18 @@
 "Assets/MainMenu/Scripts/Music_Player.cs"
 "Assets/MainMenu/Scripts/Sound_Controller.cs"
 "Assets/Scripts/Enemy IA/EnemyAI.cs"
-"Assets/Scripts/Managers/HealthController.cs"
+"Assets/Scripts/Enemy IA/HealthController.cs"
+"Assets/Scripts/Managers/AddWeapontInventory.cs"
+"Assets/Scripts/Managers/autoDestroy.cs"
+"Assets/Scripts/Managers/CameraRotation.cs"
+"Assets/Scripts/Managers/EndGameMenu.cs"
 "Assets/Scripts/Managers/LookAtMe.cs"
-"Assets/Scripts/Managers/Movement.cs"
+"Assets/Scripts/Managers/PauseMenu.cs"
 "Assets/Scripts/Managers/Weapon.cs"
 "Assets/Scripts/Managers/WeaponController.cs"
+"Assets/Scripts/Managers/WeaponInventory.cs"
+"Assets/Scripts/Player/FirstAidKit.cs"
+"Assets/Scripts/Player/HealthControllerPlayer.cs"
 -langversion:9.0
 
 /deterministic
