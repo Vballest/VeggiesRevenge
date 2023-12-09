@@ -27,6 +27,7 @@ public class Weapon : MonoBehaviour
 		{
 			return;
 		}
+		
 		if ((bool)bullet && bullet.GetComponent<Rigidbody>() != null)
 		{
 			Rigidbody rigidbody = Object.Instantiate(bullet, bulletPoint.position, base.transform.rotation);
