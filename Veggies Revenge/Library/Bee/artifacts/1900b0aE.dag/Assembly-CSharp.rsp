@@ -357,6 +357,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Character Controller/SUPER Character Controller/SUPERCharacterAIO.cs"
+"Assets/Chibi Mummy/Misc/Scripts/buttonControl_script.cs"
+"Assets/Chibi Mummy/Misc/Scripts/CharMovement.cs"
 "Assets/MainMenu/Scripts/Escape_Menu.cs"
 "Assets/MainMenu/Scripts/Menu_Controller.cs"
 "Assets/MainMenu/Scripts/Music_Player.cs"

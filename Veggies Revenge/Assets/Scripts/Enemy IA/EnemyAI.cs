@@ -41,6 +41,8 @@ public class EnemyAI : MonoBehaviour
 
 	private bool playerAttack;
 
+	private float timeLeft = 10;
+
 	private void Awake()
 	{
 		player = GameObject.Find("Player").transform;
@@ -60,20 +62,31 @@ public class EnemyAI : MonoBehaviour
 		playerInAttackRange = Physics.CheckSphere(base.transform.position, attackRange, whatIsPlayer);
 		if (!playerInSightRange && !playerInAttackRange)
 		{
+			makeEnemyWalk();
 			Patroling();
 		}
 		if (playerInSightRange && !playerInAttackRange)
 		{
+			makeEnemyWalk();
 			ChasePlayer();
 		}
 		if (playerInAttackRange && playerInSightRange)
 		{
+			makeEnemyAttack();
 			AttackPlayer();
 		}
 	}
 
 	private void Patroling()
 	{
+		timeLeft -= Time.deltaTime;
+
+		if (timeLeft < 0)
+		{
+			walkPointSet = false;
+			timeLeft = 10;
+		}
+
 		if (!walkPointSet)
 		{
 			SearchWalkPoint();
@@ -114,6 +127,7 @@ public class EnemyAI : MonoBehaviour
 
 	private void AttackPlayer()
 	{
+		
 		agent.SetDestination(base.transform.position);
 		base.transform.LookAt(player);
 		if (alreadyAttacked)
@@ -163,5 +177,29 @@ public class EnemyAI : MonoBehaviour
 		Gizmos.DrawWireSphere(base.transform.position, attackRange);
 		Gizmos.color = Color.yellow;
 		Gizmos.DrawWireSphere(base.transform.position, sightRange);
+	}
+
+	private void makeEnemyWalk()
+	{
+		if (gameObject)
+		{
+			buttonControl_script buttonControl_scriptLocal = GetComponent<buttonControl_script>();
+			if (buttonControl_scriptLocal)
+			{
+				buttonControl_scriptLocal.Run();
+			}
+		}
+	}
+
+	private void makeEnemyAttack()
+	{
+		if (gameObject)
+		{
+			buttonControl_script buttonControl_scriptLocal = GetComponent<buttonControl_script>();
+			if (buttonControl_scriptLocal)
+			{
+				buttonControl_scriptLocal.Hit();
+			}
+		}
 	}
 }
