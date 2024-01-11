@@ -43,6 +43,9 @@ public class EnemyAI : MonoBehaviour
 
 	private float timeLeft = 10;
 
+	public AudioSource myFx;
+	public AudioClip AttackSound;
+
 	private void Awake()
 	{
 		player = GameObject.Find("Player").transform;
@@ -127,7 +130,6 @@ public class EnemyAI : MonoBehaviour
 
 	private void AttackPlayer()
 	{
-		
 		agent.SetDestination(base.transform.position);
 		base.transform.LookAt(player);
 		if (alreadyAttacked)
@@ -147,6 +149,10 @@ public class EnemyAI : MonoBehaviour
 		if ((bool)component2)
 		{
 			component2.ApplyDamage(attackPower);
+			if(component2.currentHealth > 0 && !myFx.isPlaying)
+			{
+				myFx.PlayOneShot (AttackSound);
+			}
 		}
 		alreadyAttacked = true;
 		Invoke("ResetAttack", timeBetweenAttacks);

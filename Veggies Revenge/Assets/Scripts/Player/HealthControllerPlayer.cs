@@ -17,7 +17,7 @@ public class HealthControllerPlayer : MonoBehaviour
 
 	private float healthBarStartWidth;
 
-	private float currentHealth;
+	public float currentHealth;
 
 	[SerializeField]
 	public float maxHealth;
@@ -58,6 +58,9 @@ public class HealthControllerPlayer : MonoBehaviour
 
 	private float durationTimerHealth;
 
+	public AudioSource myFxDamage;
+	public AudioClip DamaGeSound;
+
 	private void Update()
 	{
 		damageOverlay();
@@ -75,6 +78,10 @@ public class HealthControllerPlayer : MonoBehaviour
 
 	public void ApplyDamage(float damage)
 	{
+		//if(!myFx.isPlaying)
+		{
+			myFxDamage.PlayOneShot (DamaGeSound);
+		}
 		if (!isDead)
 		{
 			currentHealth -= damage;

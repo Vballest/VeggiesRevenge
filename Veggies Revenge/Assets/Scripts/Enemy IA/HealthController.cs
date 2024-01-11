@@ -27,6 +27,11 @@ public class HealthController : MonoBehaviour
     private MeshRenderer meshRenderer;
     private bool isDead;
 
+    public GameObject explosion;
+    public GameObject blood;
+
+    public AudioSource DamageSoundAudisource;
+	public AudioClip DamageSoundEnemy;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +48,14 @@ public class HealthController : MonoBehaviour
 
         currentHealth -= damage;
 
+        GameObject bloodAnimation = Object.Instantiate(blood, gameObject.transform.position, base.transform.rotation);
+        bloodAnimation.SetActive(true);
+
+        if(!DamageSoundAudisource.isPlaying)
+        {
+            DamageSoundAudisource.PlayOneShot (DamageSoundEnemy);
+        }
+
         // When recive damage, the enemy goes to the player position
         // Only for Enemy not for Player
         if (GetComponent<EnemyAI>())
@@ -57,6 +70,7 @@ public class HealthController : MonoBehaviour
             isDead = true;
             meshRenderer.enabled = false;
             healthPanel.SetActive(false);
+
             /*
             StartCoroutine(RespawnAfterTime());
             foreach (Transform child in transform)
@@ -64,6 +78,11 @@ public class HealthController : MonoBehaviour
                 child.gameObject.SetActiveRecursively(false);
             }
             */
+
+            GameObject explosionAnimation = Object.Instantiate(explosion, gameObject.transform.position, base.transform.rotation);
+            explosionAnimation.SetActive(true);
+
+            whatIsPlayer.GetComponent<ScoreManager>().updateScore();
             Destroy(gameObject);
         }
 

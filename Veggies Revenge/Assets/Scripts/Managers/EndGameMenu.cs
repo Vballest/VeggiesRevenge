@@ -7,6 +7,8 @@ public class EndGameMenu : MonoBehaviour
 
 	private void Start()
 	{
+		EndGameUI.SetActive(value: false);
+		Time.timeScale = 1f;
 	}
 
 	private void Update()
@@ -16,7 +18,7 @@ public class EndGameMenu : MonoBehaviour
 			EndGameUI.SetActive(value: true);
 			Time.timeScale = 0f;
 		}
-		else if (!PauseMenu.GameIsPaused)
+		else if (!PauseMenu.GameIsPaused && !History.isStory && !WinGameUI.isGameEnd)
 		{
 			EndGameUI.SetActive(value: false);
 			Time.timeScale = 1f;
@@ -25,7 +27,13 @@ public class EndGameMenu : MonoBehaviour
 
 	public void exit()
 	{
-		Application.Quit();
+		#if !UNITY_EDITOR
+					Application.Quit();
+		#endif
+
+		#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+		#endif
 	}
 
 	public void mainMenu()

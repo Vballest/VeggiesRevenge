@@ -18,7 +18,10 @@ public class PauseMenu : MonoBehaviour
 		{
 			if (GameIsPaused)
 			{
-				Resume();
+				if (!History.isStory && !History.isStory && !WinGameUI.isGameEnd)
+				{
+					Resume();
+				}
 			}
 			else
 			{
@@ -44,7 +47,13 @@ public class PauseMenu : MonoBehaviour
 
 	public void exit()
 	{
-		Application.Quit();
+		#if !UNITY_EDITOR
+					Application.Quit();
+		#endif
+
+		#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+		#endif
 	}
 
 	public void mainMenu()

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Menu_Controller : MonoBehaviour {
 
 	[Tooltip("_sceneToLoadOnPlay is the name of the scene that will be loaded when users click play")]
-	public string _sceneToLoadOnPlay = "Level_1";
+	public string _sceneToLoadOnPlay = "01Level_Farm";
 	[Tooltip("_soundButtons define the SoundOn[0] and SoundOff[1] Button objects.")]
 	public Button[] _soundButtons;
 	[Tooltip("_audioClip defines the audio to be played on button click.")]
@@ -21,7 +21,8 @@ public class Menu_Controller : MonoBehaviour {
 			PlayerPrefs.SetInt("_Mute", 0);
 		}
 		scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-		PlayerPrefs.SetString("_LastScene", scene.name.ToString()); 
+		PlayerPrefs.SetString("_LastScene", scene.name.ToString());
+		this.Unmute();
 		//Debug.Log(scene.name);
 	}
 	

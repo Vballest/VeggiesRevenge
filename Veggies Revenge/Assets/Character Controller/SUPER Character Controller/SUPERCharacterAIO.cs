@@ -164,8 +164,6 @@ public class SUPERCharacterAIO : MonoBehaviour{
     //Sliding
     Vector3 cachedDirPreSlide, cachedPosPreSlide;
 
-
-
     [Space(20)]
     #endregion
     
@@ -221,6 +219,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
     float StepCycle = 0;
     AudioSource playerAudioSource;
     List<AudioClip> currentClipSet = new List<AudioClip>();
+
     [Space(18)]
     #endregion
     
@@ -419,7 +418,46 @@ public class SUPERCharacterAIO : MonoBehaviour{
         #endregion
         
     }
+
+    void makeWalk()
+	{
+		if (gameObject)
+		{
+			buttonControl_scriptPlayer buttonControl_scriptPlayer = GetComponent<buttonControl_scriptPlayer>();
+			if (buttonControl_scriptPlayer)
+			{
+				buttonControl_scriptPlayer.Walk();
+			}
+		}
+	}
+
+    void makeRun()
+	{
+		if (gameObject)
+		{
+			buttonControl_scriptPlayer buttonControl_scriptPlayer = GetComponent<buttonControl_scriptPlayer>();
+			if (buttonControl_scriptPlayer)
+			{
+				buttonControl_scriptPlayer.Run();
+			}
+		}
+	}
+
+    void makeIdle()
+	{
+		if (gameObject)
+		{
+			buttonControl_scriptPlayer buttonControl_scriptPlayer = GetComponent<buttonControl_scriptPlayer>();
+			if (buttonControl_scriptPlayer)
+			{
+				buttonControl_scriptPlayer.Idle();
+			}
+		}
+	}
+
     void Update(){
+
+
         if(!controllerPaused){
         #region Input
         #if ENABLE_INPUT_SYSTEM
@@ -544,6 +582,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
         if(cameraPerspective == PerspectiveModes._3rdPerson){
             HeadRotDirForInput = Mathf.MoveTowardsAngle(HeadRotDirForInput,headRot.y, bodyCatchupSpeed*(1+Time.deltaTime));
             MovInput_Smoothed = Vector2.MoveTowards(MovInput_Smoothed, MovInput, inputResponseFiltering*(1+Time.deltaTime));
+            
         }
         InputDir = cameraPerspective == PerspectiveModes._1stPerson?  Vector3.ClampMagnitude((transform.forward*MovInput.y+transform.right * (viewInputMethods == ViewInputModes.Traditional ? MovInput.x : 0)),1) : Quaternion.AngleAxis(HeadRotDirForInput,Vector3.up) * (Vector3.ClampMagnitude((Vector3.forward*MovInput_Smoothed.y+Vector3.right * MovInput_Smoothed.x),1));
         GroundMovementSpeedUpdate();
@@ -576,7 +615,19 @@ public class SUPERCharacterAIO : MonoBehaviour{
         #region Animation
         UpdateAnimationTriggers(controllerPaused);
         #endregion
+
+
+                // TODO
+        if(isIdle)
+        {
+            this.makeIdle();
+        }
+        else
+        {
+            this.makeWalk();
+        }
     }
+
     void FixedUpdate() {
         if(!controllerPaused){
 
@@ -640,6 +691,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
                         headRot.x += headRot.x>180 ? -360 : headRot.x<-180 ? 360 :0;
                         headRot.x = Mathf.Clamp(headRot.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
                         
+                        headRot.x = verticalRotationRange; // TODO
                        
                     }break;
                         
@@ -676,6 +728,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
                             targetAngles = Vector3.SmoothDamp(targetAngles, AbsoluteEulerAngles, ref refVec, 25*Time.deltaTime);
                             targetAngles.x += targetAngles.x>180 ? -360 : targetAngles.x<-180 ? 360 :0;
                             targetAngles.x = Mathf.Clamp(targetAngles.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
+                            targetAngles.x = verticalRotationRange; // TODO
                             playerCamera.transform.localEulerAngles = Vector3.right * targetAngles.x;
                             transform.eulerAngles = Vector3.up*targetAngles.y;
                             yield return null;
@@ -694,7 +747,8 @@ public class SUPERCharacterAIO : MonoBehaviour{
                 if(SmoothRotation){
                     AbsoluteEulerAngles.y += AbsoluteEulerAngles.y>180 ? -360 : AbsoluteEulerAngles.y<-180 ? 360 :0;
                     AbsoluteEulerAngles.x += AbsoluteEulerAngles.x>180 ? -360 : AbsoluteEulerAngles.x<-180 ? 360 :0;
-                    AbsoluteEulerAngles.x = Mathf.Clamp(AbsoluteEulerAngles.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
+                    //AbsoluteEulerAngles.x = Mathf.Clamp(AbsoluteEulerAngles.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
+                    AbsoluteEulerAngles.x = verticalRotationRange; // TODO
                     IEnumerator SmoothRot(){
                         doingCamInterp = true;
                         Vector3 refVec = Vector3.zero;
@@ -705,6 +759,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
                             headRot.y += headRot.y>180 ? -360 : headRot.y<-180 ? 360 :0;
                             headRot.x += headRot.x>180 ? -360 : headRot.x<-180 ? 360 :0;
                             headRot.x = Mathf.Clamp(headRot.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
+                            headRot.x = verticalRotationRange; // TODO
                             yield return null;
                         }
                         doingCamInterp = false;
@@ -717,6 +772,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
                     headRot.y += headRot.y>180 ? -360 : headRot.y<-180 ? 360 :0;
                     headRot.x += headRot.x>180 ? -360 : headRot.x<-180 ? 360 :0;
                     headRot.x = Mathf.Clamp(headRot.x,-0.5f*verticalRotationRange,0.5f*verticalRotationRange);
+                               headRot.x = verticalRotationRange; // TODO
                     quatHeadRot = Quaternion.Euler(headRot);
                     if(doingCamInterp){}
                 }
@@ -839,7 +895,6 @@ public class SUPERCharacterAIO : MonoBehaviour{
         speedToVelocityRatio = (Mathf.Lerp(0, 2, Mathf.InverseLerp(0, (sprintingSpeed/50), _2DVelocity.magnitude)));
         _2DVelocityMag = Mathf.Clamp((walkingSpeed/50) / _2DVelocity.magnitude, 0f,2f);
     
-
         //Movement
         if((currentGroundInfo.isGettingGroundInfo) && !Jumped && !isSliding && !doingPosInterp)
         {
@@ -1167,6 +1222,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
                 case GroundSpeedProfiles.Sliding:{
                 }break;
             }
+
         }
     }
     IEnumerator ApplyStance(float smoothSpeed, Stances newStance){
@@ -2206,4 +2262,6 @@ public class SuperFPEditor : Editor{
 }
 #endif
 #endregion
+
+
 }

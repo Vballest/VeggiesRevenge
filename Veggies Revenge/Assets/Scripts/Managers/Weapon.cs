@@ -21,13 +21,18 @@ public class Weapon : MonoBehaviour
 
 	public float bulletSpeed = 10f;
 
+	public AudioSource AudioSource;
+	public AudioClip ShootSound;
+
 	public void Fire()
 	{
 		if (cooldown)
 		{
 			return;
 		}
-		
+
+		AudioSource.PlayOneShot(ShootSound);
+
 		if ((bool)bullet && bullet.GetComponent<Rigidbody>() != null)
 		{
 			Rigidbody rigidbody = Object.Instantiate(bullet, bulletPoint.position, base.transform.rotation);
