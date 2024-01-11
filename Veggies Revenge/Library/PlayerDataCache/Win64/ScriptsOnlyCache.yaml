@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - AddWeapontInventory
     - CFX_AutoDestructShuriken
@@ -17,7 +15,6 @@ ScriptsOnlyBuild:
     - Menu_Controller
     - Music_Player
     - PauseMenu
-    - Readme
     - SUPERCharacter.SUPERCharacterAIO
     - ScoreManager
     - Sound_Controller
@@ -41,8 +38,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -104,6 +103,30 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: HoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: ClickSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: HoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: ClickSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: HoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: ClickSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: HoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: btnFX
+    methodName: ClickSound
   - assembly: Assembly-CSharp
     fullTypeName: btnFX
     methodName: HoverSound
@@ -221,30 +244,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: mainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: HoverSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: ClickSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: HoverSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: ClickSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: HoverSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: ClickSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: HoverSound
-  - assembly: Assembly-CSharp
-    fullTypeName: btnFX
-    methodName: ClickSound
   sceneClasses:
     Assets/Scenes/Levels/01Level_Farm.unity:
     - Class: 1
@@ -266,8 +265,6 @@ ScriptsOnlyBuild:
     - Class: 45
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -306,23 +303,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2064}
     - Class: 114
-      Script: {instanceID: 2262}
-    - Class: 114
       Script: {instanceID: 2708}
     - Class: 114
       Script: {instanceID: 3018}
     - Class: 114
       Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 3426}
-    - Class: 114
       Script: {instanceID: 3430}
     - Class: 114
-      Script: {instanceID: 4326}
-    - Class: 114
       Script: {instanceID: 4510}
-    - Class: 114
-      Script: {instanceID: 4604}
     - Class: 114
       Script: {instanceID: 4628}
     - Class: 114
@@ -354,8 +343,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6948}
     - Class: 114
-      Script: {instanceID: 7008}
-    - Class: 114
       Script: {instanceID: 7196}
     - Class: 114
       Script: {instanceID: 7338}
@@ -374,23 +361,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24780}
     - Class: 114
-      Script: {instanceID: 24782}
-    - Class: 114
       Script: {instanceID: 24784}
     - Class: 114
       Script: {instanceID: 24786}
-    - Class: 114
-      Script: {instanceID: 183490}
-    - Class: 114
-      Script: {instanceID: 218384}
-    - Class: 114
-      Script: {instanceID: 218398}
-    - Class: 114
-      Script: {instanceID: 218416}
-    - Class: 114
-      Script: {instanceID: 218420}
-    - Class: 114
-      Script: {instanceID: 218426}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -450,6 +423,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -467,13 +442,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1576}
     - Class: 114
+      Script: {instanceID: 2262}
+    - Class: 114
       Script: {instanceID: 2390}
     - Class: 114
       Script: {instanceID: 2708}
     - Class: 114
       Script: {instanceID: 3240}
     - Class: 114
+      Script: {instanceID: 3426}
+    - Class: 114
+      Script: {instanceID: 4326}
+    - Class: 114
+      Script: {instanceID: 4604}
+    - Class: 114
       Script: {instanceID: 4670}
+    - Class: 114
+      Script: {instanceID: 5398}
     - Class: 114
       Script: {instanceID: 6038}
     - Class: 114
@@ -483,9 +468,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6994}
     - Class: 114
+      Script: {instanceID: 7008}
+    - Class: 114
       Script: {instanceID: 7338}
     - Class: 114
       Script: {instanceID: 8192}
+    - Class: 114
+      Script: {instanceID: 157202}
+    - Class: 114
+      Script: {instanceID: 157216}
+    - Class: 114
+      Script: {instanceID: 157234}
+    - Class: 114
+      Script: {instanceID: 157236}
+    - Class: 114
+      Script: {instanceID: 157242}
+    - Class: 114
+      Script: {instanceID: 157244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1691,7 +1690,7 @@ ScriptsOnlyBuild:
     className: SUPERCharacterAIO
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Levels/01Level_Farm.unity
   - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Levels/01Level_Farm.unity
   playerPath: C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies
     Revenge.exe
