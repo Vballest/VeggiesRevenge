@@ -1,519 +1,549 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1698056225758905, "dur": 2480294, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056225759326, "dur": 6957, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056225766287, "dur": 65450, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056225831740, "dur": 1014155, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056226845898, "dur": 1380505, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056228226405, "dur": 12792, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056228240230, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973677451923, "dur": 3041328, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973677452418, "dur": 12995, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973677465416, "dur": 64826, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973677530246, "dur": 846628, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973678376876, "dur": 2104013, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973680480892, "dur": 12359, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973680495198, "dur": 21, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1698056226700297, "dur": 129882, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226701751, "dur": 50513, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226813434, "dur": 4751, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226818189, "dur": 11976, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226819079, "dur": 10192, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226834632, "dur": 1233, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1698056226833726, "dur": 2174, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056228240394, "dur": 309, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678139286, "dur": 219878, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678141335, "dur": 67558, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678332963, "dur": 5954, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678338921, "dur": 20229, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678339880, "dur": 18222, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678364980, "dur": 1632, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1704973678363915, "dur": 2728, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973680495358, "dur": 384, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1698056226925091, "dur":2090, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056226927195, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1698056226927268, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1698056226927285, "dur":436, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1698056226927777, "dur":847, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056226928624, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199633, "dur":202, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199835, "dur":56, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199891, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199895, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199904, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199907, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228199917, "dur":644, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228200561, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228200579, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228200583, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228200592, "dur":382, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228200974, "dur":59, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201033, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201036, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201051, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201054, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201062, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201332, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228201362, "dur":3467, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1698056226928308, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056226928635, "dur":7150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056226935794, "dur":57795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1698056226993592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056226994137, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1698056226996173, "dur":201126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227197308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056227197316, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227199370, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227200274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056227200281, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227201590, "dur":203385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227404983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056227404991, "dur":20666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227425704, "dur":132319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227558029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056227558036, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227562232, "dur":288618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227850857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1698056227850865, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1698056227852967, "dur":346503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226928373, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226928650, "dur":7137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226935795, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1698056226936045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226941285, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1698056226944324, "dur":28506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1698056226972837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226972845, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1698056226976731, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226977045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226977482, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226979600, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226980022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226980028, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226982316, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226982612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226982617, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226986161, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226986385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226986389, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226988579, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226988818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226988823, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226991574, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226991859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226991865, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226993574, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226993799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226993803, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226996131, "dur":1563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056226997698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056226997703, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227000035, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227000518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227000523, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227003727, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227004034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227004038, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227005919, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227006243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227006248, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227008474, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227008891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227008896, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227010963, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227011327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227011331, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227013446, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227013769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227013773, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227015643, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227015877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227015881, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227018429, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227018853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227018859, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227020451, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227020796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227020802, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227022788, "dur":3083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227025874, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227025918, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227027298, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227027609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227027614, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227029941, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227030228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227030232, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227032370, "dur":147053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227179430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227179438, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227181177, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227182144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227182152, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227183546, "dur":49208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227232761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227232769, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227234016, "dur":217930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227451950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227451956, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227454425, "dur":232759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227687191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056227687199, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056227690074, "dur":502808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056228192889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1698056228192897, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1698056228199361, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1698056228199365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226928425, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226928661, "dur":7130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226935795, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1698056226936028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226940718, "dur":10625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1698056226951389, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1698056226951509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226951568, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1698056226953305, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1698056226953425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226953432, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1698056226955181, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1698056226955290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226955295, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1698056226956993, "dur":2152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226959150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226959570, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226961886, "dur":3637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1698056226965528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226965533, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1698056226968178, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1698056226968436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226968870, "dur":8516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1698056226977426, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226977668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226977734, "dur":8164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226985937, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226986254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226986259, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226988454, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226988722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226988727, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226991963, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226992228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226992232, "dur":3241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226995565, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226995859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226995865, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226998691, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056226999011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056226999018, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227001122, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227001395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227001399, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227003978, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227004264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227004269, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227007198, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227007466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227007471, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227010140, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227010490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227010496, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227012281, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227012533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227012538, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227014940, "dur":1505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227016448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227016453, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227019215, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227019558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227019563, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227020861, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227021133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227021138, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227022360, "dur":2978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227025344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227025352, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227027294, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227027644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227027647, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227029669, "dur":2220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227031892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227031897, "dur":6363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227038306, "dur":305026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227343339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227343346, "dur":65125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227408515, "dur":123434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227531955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227531962, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227533718, "dur":154438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227688161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056227688167, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056227690276, "dur":316118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056228006402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1698056228006412, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1698056228008615, "dur":190805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226928486, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226928671, "dur":7121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226935795, "dur":42870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1698056226978668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226978675, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1698056226980779, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056226981590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226981597, "dur":6359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056226988029, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056226988527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056226988531, "dur":19366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227007939, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227008568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227008572, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227011303, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227011537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227011542, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227013953, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227014227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227014231, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227016579, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227016878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227016882, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227018675, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227018948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227018953, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227020585, "dur":1489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227022077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227022082, "dur":8018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227030140, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227030409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227030413, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227032656, "dur":219626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227252290, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227252300, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227255978, "dur":194118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227450101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227450108, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227452296, "dur":262223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227714526, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227714544, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227716832, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227717805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227717812, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1698056227720215, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1698056227720369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227720844, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1698056227722157, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1698056227722194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227722230, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1698056227723662, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1698056227723729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227723733, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1698056227725095, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1698056227725136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227725139, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1698056227728562, "dur":1212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1698056227729778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227729783, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1698056227731388, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1698056227731425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227731427, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1698056227733029, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1698056227733183, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1698056227733191, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1698056227734363, "dur":465141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226928531, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226928677, "dur":7131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226935808, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1698056226936024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226940629, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1698056226944680, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1698056226944785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226944812, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1698056226947001, "dur":43886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1698056226990892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226990900, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1698056226992823, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056226993164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226993169, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056226995715, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056226996407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226996412, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056226999014, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056226999372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056226999377, "dur":4600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227004017, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227004378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227004383, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227007810, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227008371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227008385, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227010963, "dur":16538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227027505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227027511, "dur":4785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227032340, "dur":123132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227155480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227155489, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227158211, "dur":76659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227234875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227234883, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227236346, "dur":212528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227448881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227448889, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227451202, "dur":48251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227499460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227499468, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227501773, "dur":173090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227674870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227674878, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227677519, "dur":58194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227735718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1698056227735726, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1698056227737466, "dur":462031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226928561, "dur":123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226928685, "dur":7131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226935817, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1698056226936106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226941472, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1698056226944292, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1698056226944399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226944461, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1698056226946979, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1698056226947104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226950670, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1698056226952783, "dur":11421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1698056226964210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056226964219, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1698056226967612, "dur":62864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge.exe" }}
-,{ "pid":12345, "tid":6, "ts":1698056227030479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227030483, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge.exe" }}
-,{ "pid":12345, "tid":6, "ts":1698056227033825, "dur":150436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227184265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227184272, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227185699, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227186398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227186403, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227187527, "dur":116101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227303635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227303643, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227305239, "dur":149484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227454726, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227454734, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227460433, "dur":150182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227610622, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227610656, "dur":36287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227646978, "dur":143946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227790932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1698056227790940, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1698056227794556, "dur":404885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226928626, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226928628, "dur":7149, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226935795, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1698056226935802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226937969, "dur":753, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1698056226938727, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1698056226938790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226939523, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1698056226943681, "dur":10505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1698056226954190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226954197, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1698056226955646, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1698056226955742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226955746, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1698056226957650, "dur":20121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226977775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226977828, "dur":5586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226983450, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226983733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226983738, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226987348, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226987607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226987613, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226989525, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226989755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226989760, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226992201, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226992499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226992504, "dur":4300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226996844, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056226997125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056226997131, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227003405, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227003761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227003768, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227005488, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227005849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227005854, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227008373, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227008624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227008629, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227010764, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227011122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227011126, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227013355, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227013633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227013638, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227015577, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227015845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227015859, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227017304, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227017573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227017578, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227019437, "dur":6353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227025794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227025799, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227029537, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227029989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227029995, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227032139, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227032451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227032456, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227034993, "dur":125904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227160933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227160940, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227162534, "dur":57000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227219543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227219554, "dur":7119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227226721, "dur":552494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227779223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1698056227779230, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1698056227783224, "dur":416193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056226928669, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056226928669, "dur":7120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056226935794, "dur":18462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1698056226954260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056226954327, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1698056226960519, "dur":70940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227031462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227031466, "dur":14574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227046083, "dur":1345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227047433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227047440, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227049077, "dur":68693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227117777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227117786, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227119285, "dur":37491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227156782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227156789, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227158337, "dur":1133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227159475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227159483, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227161297, "dur":63233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227224636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227224644, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227226799, "dur":166500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227393306, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227393316, "dur":16211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227409561, "dur":42324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227451889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227451897, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227454260, "dur":263716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227717979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227717983, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1698056227725085, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1698056227725128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227725133, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1698056227726699, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1698056227726745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227726751, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1698056227728271, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1698056227728386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227728390, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1698056227729734, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1698056227729775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227729779, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1698056227731342, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1698056227731378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227731381, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1698056227732680, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Veggies Revenge_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1698056227732720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1698056227732724, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Veggies Revenge_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1698056227734046, "dur":465469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1698056228215234, "dur":2723, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1698056228240777, "dur": 10901, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1698056228240210, "dur": 11577, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1704973678447321, "dur":1714, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973678449048, "dur":50, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1704973678449118, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1704973678449149, "dur":493, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1704973678449685, "dur":720, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973678450406, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464581, "dur":244, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464826, "dur":61, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464887, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464891, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464911, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464914, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464925, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464928, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464938, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464940, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464950, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464953, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464969, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464972, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464982, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464984, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680464994, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680465016, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680465036, "dur":2019, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704973678450251, "dur":169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678450424, "dur":6709, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678457148, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1704973678457155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678459086, "dur":533, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1704973678459623, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1704973678459700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678460061, "dur":4270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1704973678464335, "dur":18066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1704973678482412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678482434, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1704973678486026, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge.exe" }}
+,{ "pid":12345, "tid":1, "ts":1704973678486861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678486872, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge.exe" }}
+,{ "pid":12345, "tid":1, "ts":1704973678489381, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678489658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678489750, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678493821, "dur":1103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678494929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678494937, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678499299, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678499814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678499825, "dur":8073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678508016, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678508442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678508453, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678512715, "dur":196139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678708859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678708891, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678712337, "dur":43853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678756198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678756214, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678758997, "dur":78276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678837281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678837296, "dur":21477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678858814, "dur":29449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678888268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973678888279, "dur":39736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973678928064, "dur":741265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973679669338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973679669356, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973679671715, "dur":331718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973680003439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704973680003484, "dur":9311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704973680013243, "dur":451305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678450319, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678450440, "dur":6717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678457158, "dur":15520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1704973678472684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678472710, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1704973678476533, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1704973678476666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678476679, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1704973678479038, "dur":13781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678492823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678493947, "dur":10051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678504051, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678504380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678504392, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678507153, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678507436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678507447, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678510050, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678510499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678510509, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678513529, "dur":26088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678539624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678539638, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678541553, "dur":28102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678569661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678569676, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678573205, "dur":81465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678654674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678654686, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678657881, "dur":48263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678706154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678706174, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678708780, "dur":24177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678732965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678732979, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678734618, "dur":132769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678867395, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678867414, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678869243, "dur":116260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678985509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973678985527, "dur":13137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973678998717, "dur":82274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679080999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973679081014, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679085307, "dur":56722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679142038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973679142056, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679144261, "dur":361640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679505910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973679505928, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679508598, "dur":250553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679759160, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973679759177, "dur":39664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973679798896, "dur":428889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973680227794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704973680227809, "dur":3260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704973680231124, "dur":233438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678450297, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678450430, "dur":6714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678457148, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1704973678457365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678461599, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1704973678465028, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704973678465147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678465213, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1704973678468555, "dur":44779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704973678513338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678513383, "dur":20478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704973678533910, "dur":49310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678583229, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678583245, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678586123, "dur":42975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678629104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678629117, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678630771, "dur":51687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678682467, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678682482, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678684258, "dur":22174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678706437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678706447, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678708710, "dur":47484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678756200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678756215, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678758920, "dur":24209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678783137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678783151, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678784776, "dur":149886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678934670, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973678934687, "dur":49912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973678984686, "dur":68139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973679052833, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973679052850, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973679054780, "dur":46611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973679101399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973679101419, "dur":11852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973679113382, "dur":1007512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973680120904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704973680120921, "dur":4955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704973680125921, "dur":338657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678450360, "dur":91, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678450451, "dur":6731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678457183, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1704973678457476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678461518, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1704973678465615, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1704973678465746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678465779, "dur":4935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1704973678470810, "dur":13044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1704973678483859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678483872, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1704973678487328, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1704973678487538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678488034, "dur":9390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1704973678497473, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678498145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678498172, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678501827, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678502792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678502894, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678506701, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678507019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678507029, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678510333, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678510712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678510721, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678513830, "dur":73544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678587379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678587391, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678588561, "dur":101639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678690207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678690223, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678692870, "dur":108579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678801456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678801468, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678803178, "dur":22732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678825917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678825931, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678827495, "dur":60896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678888681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973678888692, "dur":17687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973678906428, "dur":128082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679034518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973679034534, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679036543, "dur":133124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679169678, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973679169913, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679172630, "dur":307468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679480111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973679480134, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679485115, "dur":80420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679565544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973679565563, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679567724, "dur":225502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679793235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973679793282, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973679795334, "dur":664657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973680459997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704973680460010, "dur":4443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704973680464509, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1704973680464513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678450398, "dur":65, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678450463, "dur":6772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678457236, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704973678457372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678461817, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704973678465663, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704973678465777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678467058, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1704973678469121, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1704973678469285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678469350, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1704973678473612, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704973678473769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678473782, "dur":3596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704973678477418, "dur":5850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678483273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678483876, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678488527, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678489212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678489642, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678492687, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678493647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678493658, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678498262, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678498994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678499006, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678502236, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678502473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678502485, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678505538, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678506011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678506022, "dur":4130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678510195, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678510565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678510574, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678513813, "dur":70508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678584327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678584339, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678587121, "dur":40799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678627928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678627942, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678630138, "dur":22840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678652987, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678653004, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678657738, "dur":24329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678682072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678682109, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678684074, "dur":63651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678747734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678747749, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678749425, "dur":27621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678777054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678777071, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678778653, "dur":24874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678803532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678803740, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678805194, "dur":77493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678882694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973678882708, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973678884359, "dur":151719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679036084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679036101, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679038919, "dur":28995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679067919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679067933, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679071581, "dur":100004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679171593, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679172841, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679177816, "dur":182506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679360330, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679360353, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679362667, "dur":64640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679427315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679427336, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679429874, "dur":311238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679741120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679741135, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679744971, "dur":182639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679927621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679927642, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704973679930277, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1704973679930340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679930352, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1704973679934050, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1704973679934103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679934117, "dur":15984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1704973679950166, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1704973679950404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679950420, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1704973679954571, "dur":43779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1704973679998359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704973679998376, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1704973680002820, "dur":461730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678450444, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678450444, "dur":6698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678457152, "dur":66663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1704973678523823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678525276, "dur":8451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1704973678533849, "dur":145646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678679505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678679520, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678682022, "dur":53150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678735177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678735192, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678736713, "dur":27832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678764551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678764565, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678767525, "dur":32569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678800101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678800118, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678804722, "dur":32837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678837566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973678837579, "dur":7897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973678845522, "dur":168449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679013979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679013994, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679016682, "dur":80119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679096814, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679096835, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679100915, "dur":217287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679318212, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679318232, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679320446, "dur":96481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679416947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679416966, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679419753, "dur":343194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679762954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679762969, "dur":7814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679770866, "dur":98913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679869800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973679869818, "dur":31687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973679901560, "dur":327877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973680229444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704973680229459, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704973680231936, "dur":232617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678450483, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678450483, "dur":6668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678457152, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1704973678457367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678461237, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1704973678465030, "dur":14475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704973678479510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678479524, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1704973678481059, "dur":87567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678568634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678568647, "dur":15287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678583984, "dur":70428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678654421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678654435, "dur":19900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678674393, "dur":31769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678706168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678706190, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678708859, "dur":27737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678736601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678736614, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678738070, "dur":20859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678758934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678758947, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678761767, "dur":27670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678789444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678789460, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678791256, "dur":29677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678820938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678820952, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678822295, "dur":21858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678844164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678844179, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678845993, "dur":41554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678887552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973678887564, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973678889805, "dur":124191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679014001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679014010, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679016335, "dur":49464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679065806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679065821, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679067668, "dur":72369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679140046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679140067, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679142664, "dur":190035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679332708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679332726, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679335177, "dur":192341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679527526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679527543, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679530531, "dur":275537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679806074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679806087, "dur":11313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679817452, "dur":155193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679972653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679972670, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704973679975026, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1704973679975078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679975089, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1704973679977425, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1704973679977474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679977517, "dur":4602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1704973679982179, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1704973679982365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704973679982377, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1704973679984143, "dur":480406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678450532, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678450533, "dur":6613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678457149, "dur":17346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704973678474500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678474530, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704973678477326, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1704973678477444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678477455, "dur":7422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1704973678484922, "dur":6300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1704973678491229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678491240, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1704973678493739, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678494705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678494718, "dur":5372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678500165, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678500464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678500475, "dur":8583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678509106, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678509451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678509490, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678513282, "dur":204797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678718087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678718102, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678719910, "dur":43202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678763118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678763135, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678764877, "dur":53112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678817997, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678818012, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678819665, "dur":67612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678887284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973678887302, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973678889740, "dur":130895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679020643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679020659, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679023199, "dur":38027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679061233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679061267, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679063370, "dur":48708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679112089, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679112110, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679115224, "dur":146818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679262052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679262112, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679264223, "dur":145140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679409371, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679409387, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679411861, "dur":296325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679708194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679708211, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679710668, "dur":94681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679805357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679805375, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679807513, "dur":2258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679809778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679809793, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679811641, "dur":87696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679899346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679899401, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704973679901712, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1704973679901908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679902704, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1704973679904508, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1704973679904601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679904663, "dur":9042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1704973679913765, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1704973679913822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679913837, "dur":7316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1704973679921212, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679921272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679921288, "dur":7142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679928488, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679928542, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679928561, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679930432, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679930487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679930499, "dur":39648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679970199, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679970251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679970265, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679974412, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679974467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679974480, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679976200, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679976248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679976260, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704973679978100, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679978164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679978175, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704973679980789, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1704973679980844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704973679980858, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vballesteros/Documents/Personal/UOC/VeggiesRevenge/VeggiesRevenge/Exe/Veggies Revenge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1704973679982689, "dur":481863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704973680469592, "dur":3449, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1704973680495845, "dur": 2137, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704973680495177, "dur": 2855, "ph": "X", "name": "Write chrome-trace events", "args": {} },
